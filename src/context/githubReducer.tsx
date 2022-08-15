@@ -4,10 +4,10 @@ import {
   CLEAN_USERS,
   GET_REPOS,
   SEARCH_USER,
-} from "./types";
+} from './types';
 
 // eslint-disable-next-line
-export default (state, action) => {
+export default (state: any, action: any) => {
   switch (action.type) {
     case SET_LOADING:
       return {
